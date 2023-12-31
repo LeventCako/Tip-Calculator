@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+   background-color: lightgray;
+}
+
+
+.Tip-calculator-box {
+    background-color: rgb(255, 255, 255);
+    height: 440px;
+    width: 600px;
+    border-radius: 40px;
+    margin-top: 100px;
+    
+
+}
+.Tip-calculator-background {
+ display: flex;
+ justify-content: center;
+ 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p, input, button {
+    margin-left: 2rem;
+    width: 500px;
+    height: 30px;
+}
+
+button {
+    background-color: rgb(34, 175, 34);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+   
+}
+p {
+    margin-bottom: 2px;
+}
+
+button:hover {
+    background-color: rgb(14, 153, 14);
+    transition: 0.2s;
+}
+
+
